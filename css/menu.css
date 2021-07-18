@@ -1,3 +1,4 @@
+
 * {
 	-webkit-transition-property: all;
 	-webkit-transition-duration: .2s;
@@ -10,7 +11,8 @@ body{
   background:#303030;
   padding:75px;
   text-align:center;
-  font-family: 'Verdana', sans-serif;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+	text-shadow: 1px 1px 5px black;
 }
 
 h1{
@@ -20,8 +22,8 @@ h1{
 }
 
 .btn{
-  color:#999;
-  background:rgba(0, 0, 0, 0.5);
+  color:#fff;
+  background:rgba(0, 0, 0, 0.6);
   padding:10px 20px;
   font-size:12px;
   text-decoration:none;
