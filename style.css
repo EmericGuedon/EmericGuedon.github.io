@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  position: fixed;
+  overflow: hidden;
+  background: rgba(15.224152290303376,16.0445211183819,16.17073170731706, 1);
+}
+
+canvas { width: 100%; height: 100%; outline: none; }
+#container { width: 100%; height: 100%; position: absolute; }
+
+.parent{
+  position: relative;
+}
+
+.home {
+  position: relative;
+  z-index: 5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 5em;
+  color: #FFFFFF;
+  left: 300px;
+}
+
+.textHome{
+  position: ;
+  font-size: 1em;
+  color: #FFFFFF;
+  left: 100px;
+}
+
+.navigation{
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  left: 50px;
+  bottom: 20%;
+  width: 70px;
+  border-radius: 10px;
+
+  transition: width 0.5s;
+  overflow-x: hidden;
+}
+
+.navigation ul
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 10%;
+}
+
+.navigation ul li{
+  position: relative;
+  list-style: none;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.navigation ul li.active{
+  background: #1F1F1F;
+}
+
+.navigation ul li a{
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.navigation ul li .active a{
+  background: #0F1010;
+}
+
+.navigation ul li a .icon{
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.navigation ul li a .icon icon-icon{
+  font-size: 1.5em;
+}
+
+.navigation ul li a .title{
+  position: relative;
+  display: block;
+  padding-left: 10px;
+  height: 60px;
+  line-height: 60px;
+  white-space: normal;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+
+}
